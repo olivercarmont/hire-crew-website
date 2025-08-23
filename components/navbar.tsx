@@ -24,7 +24,7 @@ export function Navbar({ variant }: { variant?: "landing" }) {
           {/* Desktop Navigation */}
           <div className="hidden md:flex items-center space-x-8">
             <a href="#home" className="text-foreground hover:text-accent transition-colors">
-              Home
+              Hzme
             </a>
             <a href="#about" className="text-foreground hover:text-accent transition-colors">
               About
@@ -62,7 +62,7 @@ export function Navbar({ variant }: { variant?: "landing" }) {
                 className="block px-3 py-2 text-foreground hover:text-accent transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Home
+                Hzme
               </a>
               <a
                 href="#about"
