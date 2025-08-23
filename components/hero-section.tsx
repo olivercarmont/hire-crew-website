@@ -23,7 +23,7 @@ export function HeroSection() {
 
           <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed max-w-3xl mx-auto">
             Connect with experienced maritime professionals worldwide. Our platform ensures you find qualified, vetted
-            crew members for any vessel type.
+            crew members for any Ship type.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
