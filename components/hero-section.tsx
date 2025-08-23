@@ -36,7 +36,7 @@ export function HeroSection() {
               variant="outline"
               className="border-white text-white hover:bg-white hover:text-black text-lg px-8 py-4 bg-transparent"
             >
-              Join as Crew
+              Join as a Crew Member
             </Button>
           </div>
 
