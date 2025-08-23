@@ -38,7 +38,7 @@ export function Navbar() {
             <Button variant="ghost" className="text-foreground hover:text-accent">
               Sign In
             </Button>
-            <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Get Started</Button>
+            <Button className="bg-primary text-primary-foreground hover:bg-primary/90">Sign up now</Button>
           </div>
 
           {/* Mobile menu button */}
