@@ -33,7 +33,7 @@ export function Navbar({ variant }: { variant?: "landing" }) {
               Services
             </a>
             <a href="#contact" className="text-foreground hover:text-accent transition-colors">
-              Contactt
+              Contact
             </a>
           </div>
 
@@ -83,7 +83,7 @@ export function Navbar({ variant }: { variant?: "landing" }) {
                 className="block px-3 py-2 text-foreground hover:text-accent transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Contactt
+                Contact
               </a>
               <div className="flex flex-col space-y-2 px-3 pt-4">
                 <Button variant="ghost" className="justify-start text-foreground hover:text-accent">
