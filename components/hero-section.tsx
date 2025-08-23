@@ -18,12 +18,12 @@ export function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 leading-tight">
-            Hire the Best <span className="text-accent">Crew</span> for Your Vessel
+            Hire the Best <span className="text-accent">Crew</span> for Your Ship
           </h1>
 
           <p className="text-xl md:text-2xl text-gray-200 mb-8 leading-relaxed max-w-3xl mx-auto">
             Connect with experienced maritime professionals worldwide. Our platform ensures you find qualified, vetted
-            crew members for any vessel type.
+            crew members for any Ship type.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">

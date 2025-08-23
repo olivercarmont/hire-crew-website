@@ -7,7 +7,7 @@ export function ServicesSection() {
       icon: Search,
       title: "Smart Crew Matching",
       description:
-        "Our AI-powered system matches you with the perfect crew based on vessel type, route, and specific requirements.",
+        "Our AI-powered system matches you with the perfect crew based on Ship type, route, and specific requirements.",
     },
     {
       icon: UserCheck,

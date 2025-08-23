@@ -12,7 +12,7 @@ export function Footer() {
               <span className="text-xl font-bold text-card-foreground">hireCrew</span>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              Connecting vessels with qualified maritime professionals worldwide. Your trusted partner in crew
+              Connecting Ships with qualified maritime professionals worldwide. Your trusted partner in crew
               recruitment and management.
             </p>
             <div className="flex space-x-4">
