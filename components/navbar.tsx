@@ -4,7 +4,7 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Anchor } from "lucide-react"
 
-export function Navbar() {
+export function Navbar({ variant }: { variant?: "landing" }) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
