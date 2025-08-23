@@ -65,7 +65,7 @@ export function Navbar({ variant }: { variant?: "landing" }) {
                 Hzme
               </a>
               <a
-                href="#about"
+                href="/about2"
                 className="block px-3 py-2 text-foreground hover:text-accent transition-colors"
                 onClick={() => setIsOpen(false)}
               >
