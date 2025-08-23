@@ -4,11 +4,15 @@ import { useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Menu, X, Anchor } from "lucide-react"
 
-export function Navbar() {
+export function Navbar({ variant }: { variant?: "landing" }) {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60 border-b border-border">
+    <nav className={`fixed top-0 left-0 right-0 z-50 ${
+  variant === "landing" 
+    ? "bg-orange-500" 
+    : "bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60"
+} border-b border-border`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
