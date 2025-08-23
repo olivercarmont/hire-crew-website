@@ -83,7 +83,7 @@ export function Navbar({ variant }: { variant?: "landing" }) {
                 className="block px-3 py-2 text-foreground hover:text-accent transition-colors"
                 onClick={() => setIsOpen(false)}
               >
-                Contact
+                Contactt
               </a>
               <div className="flex flex-col space-y-2 px-3 pt-4">
                 <Button variant="ghost" className="justify-start text-foreground hover:text-accent">
