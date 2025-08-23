@@ -26,7 +26,7 @@ export function Navbar({ variant }: { variant?: "landing" }) {
             <a href="#home" className="text-foreground hover:text-accent transition-colors">
               Hzme
             </a>
-            <a href="/about2" className="text-foreground hover:text-accent transition-colors">
+            <a href="/about" className="text-foreground hover:text-accent transition-colors">
               About
             </a>
             <a href="#services" className="text-foreground hover:text-accent transition-colors">
@@ -65,7 +65,7 @@ export function Navbar({ variant }: { variant?: "landing" }) {
                 Hzme
               </a>
               <a
-                href="/about2"
+                href="/about"
                 className="block px-3 py-2 text-foreground hover:text-accent transition-colors"
                 onClick={() => setIsOpen(false)}
               >
