@@ -73,7 +73,7 @@ export default function FeedbackToast() {
       {isOpen && (
         <Card
           className={cn(
-            "fixed bottom-6 right-6 z-50 w-80 shadow-xl border-2 transition-all duration-300",
+            "fixed bottom-6 right-6 z-50 w-[28rem] shadow-xl border-2 transition-all duration-300",
             isSubmitted ? "border-green-500" : "border-border",
           )}
         >
@@ -81,14 +81,16 @@ export default function FeedbackToast() {
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <MessageCircle className="h-5 w-5 text-orange-600" />
-                <CardTitle className="text-lg">Feedback</CardTitle>
+                <CardTitle className="text-lg">We love feedback!</CardTitle>
               </div>
               <Button variant="ghost" size="icon" onClick={() => setIsOpen(false)} className="h-6 w-6">
                 <X className="h-4 w-4" />
               </Button>
             </div>
             <CardDescription>
-              {isSubmitted ? "Thank you for your feedback!" : "Help us improve hireCrew"}
+              {isSubmitted
+                ? "Thank you for your feedback!"
+                : "See your feature requests live in less than 5 minutes!"}
             </CardDescription>
           </CardHeader>
 
