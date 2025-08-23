@@ -18,6 +18,7 @@ export default function FeedbackToast() {
   const [name, setName] = useState("")
   const [email, setEmail] = useState("")
   const [message, setMessage] = useState("")
+  const [shouldEmailUser, setShouldEmailUser] = useState(false)
   const [isLoading, setIsLoading] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
@@ -34,6 +35,7 @@ export default function FeedbackToast() {
           name: name.trim(),
           email: email.trim() || null,
           message: message.trim(),
+          should_email_user: shouldEmailUser,
         },
       ])
 
@@ -44,6 +46,7 @@ export default function FeedbackToast() {
       setName("")
       setEmail("")
       setMessage("")
+      setShouldEmailUser(false)
 
       setTimeout(() => {
         setIsOpen(false)
@@ -132,6 +135,17 @@ export default function FeedbackToast() {
                     onChange={(e) => setMessage(e.target.value)}
                     required
                   />
+                </div>
+
+                <div className="flex items-center gap-2">
+                  <input
+                    id="notify"
+                    type="checkbox"
+                    className="h-4 w-4 accent-orange-600"
+                    checked={shouldEmailUser}
+                    onChange={(e) => setShouldEmailUser(e.target.checked)}
+                  />
+                  <Label htmlFor="notify">Email me when this change is live</Label>
                 </div>
 
                 {error && <p className="text-sm text-red-500">{error}</p>}
