@@ -33,7 +33,7 @@ export function Navbar({ variant }: { variant?: "landing" }) {
               Services
             </a>
             <a href="#contact" className="text-foreground hover:text-accent transition-colors">
-              Contact
+              Contactt
             </a>
           </div>
 
