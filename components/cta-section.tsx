@@ -9,7 +9,7 @@ export function CTASection() {
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6">Ready to Set Sail with the Perfect Crew?</h2>
 
           <p className="text-xl md:text-2xl mb-8 opacity-90 leading-relaxed">
-            Join thousands of vessel owners and maritime professionals who trust hireCrew for their staffing needs.
+            Join thousands of Ship owners and maritime professionals who trust hireCrew for their staffing needs.
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
