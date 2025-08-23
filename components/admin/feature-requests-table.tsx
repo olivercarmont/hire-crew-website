@@ -14,7 +14,7 @@ function getOrdinal(n: number) {
 function formatExact(dateString: string) {
   if (!dateString) return "—"
   const d = new Date(dateString)
-  const month = d.toLocaleString("en-US", { month: "long" })
+  const month = d.toLocaleString("en-US", { month: "short" })
   const day = d.getDate()
   let hours = d.getHours()
   const minutes = d.getMinutes().toString().padStart(2, "0")
