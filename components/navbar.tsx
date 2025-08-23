@@ -26,7 +26,7 @@ export function Navbar({ variant }: { variant?: "landing" }) {
             <a href="#home" className="text-foreground hover:text-accent transition-colors">
               Hzme
             </a>
-            <a href="#about" className="text-foreground hover:text-accent transition-colors">
+            <a href="/about2" className="text-foreground hover:text-accent transition-colors">
               About
             </a>
             <a href="#services" className="text-foreground hover:text-accent transition-colors">
